@@ -68,17 +68,11 @@ Designed to help learners develop core programming and robotics skills through h
 - Keep wires short and secure to reduce noise
 - Finally, test the robot with example sketches before full use
 
-### Bill of Materials (indicative)
-- 1× ByByte Nano PCB
-- 1× Arduino Nano controller
-- 1× Motor driver module (DRV8833)
-- 2× N20 geared DC motors (around 600 rpm) + wheels for 3 mm shaft
-- Line/reflectance sensor array (5× TCRT5000)
-- Power source: 9V PP3 battery (“Krona”)
-- 1× Ultrasonic sensor HC‑SR04
-- 1× Bluetooth module (HC‑02/HC‑05/HC‑06 or compatible)
-- 2× DC‑DC buck modules (e.g., MINI‑360) adjusted to required voltages
-- Misc: pin headers, screws, wires, buzzer, sensors and other components
+### Bill of Materials
+
+The complete parts list — **49 line items** with designators, quantities, values, and component photos — is in **[BOM.md](BOM.md)**.
+
+At a glance, the build includes the ByByte Nano PCB, Arduino Nano, motor driver (DRV8834), N20 geared motors with wheels and mounts, 5-channel line tracker, ultrasonic sensor, Bluetooth module (HC-02/HC-05/HC-06), two DC-DC buck modules, ESP32-CAM (optional), and assorted passives, connectors, and mechanical hardware.
 
 ### Troubleshooting
 - No power: check polarity and regulator output
