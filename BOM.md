@@ -4,11 +4,6 @@
 
 Full component list for robot assembly. Tables are grouped by part type.
 
-<!--
-Tip: the Image column on the right automatically picks up a file
-when its name matches the value in the File column.
--->
-
 ---
 
 ## PCB, power & protection
@@ -45,7 +40,7 @@ when its name matches the value in the File column.
 | # | Designator | Qty | Description | Value / model | Image | File |
 |:--:|------------|:-----:|-------------|---------------|:-----:|------|
 | 20 | `D1,D2` | 2 | IR LED | SFH4545 | <img src="hardware/bom/img/19_d1.png" alt="IR LED" width="80" /> | `19_d1.png` |
-| 21 | `D3` | 1 | Diode | 1N4149 | <img src="hardware/bom/img/20_d3.png" alt="Diode" width="80" /> | `20_d3.png` |
+| 21 | `D3` | 1 | Diode | 1N4148 | <img src="hardware/bom/img/20_d3.png" alt="Diode" width="80" /> | `20_d3.png` |
 | 22 | `LED1` | 1 | Green LED 3 mm | FYL-3004GD | <img src="hardware/bom/img/21_led1.jpg" alt="Green LED 3 mm" width="80" /> | `21_led1.jpg` |
 | 23 | `LED2,LED3` | 2 | 5 mm addressable RGB LED (WS2812) | WS2812B-TH | <img src="hardware/bom/img/22_led2.jpg" alt="5 mm addressable RGB LED (WS2812)" width="80" /> | `22_led2.jpg` |
 | 24 | `Q1` | 1 | NPN transistor | 9014-C | <img src="hardware/bom/img/23_q1.jpg" alt="NPN transistor" width="80" /> | `23_q1.jpg` |
@@ -62,8 +57,8 @@ when its name matches the value in the File column.
 | 30 | `BUZZER1` | 1 | Passive buzzer 5V | buzzer-12X9 | <img src="hardware/bom/img/29_buzzer1.jpg" alt="Passive buzzer 5V" width="80" /> | `29_buzzer1.jpg` |
 | 31 | `LDR1` | 1 | Photo-resistor (LDR) | 10k | <img src="hardware/bom/img/30_ldr1.jpg" alt="Photo-resistor (LDR)" width="80" /> | `30_ldr1.jpg` |
 | 32 | `U1` | 1 | Arduino Nano (ATmega328) | Arduino nano v3 (old) | <img src="hardware/bom/img/31_u1.png" alt="Arduino Nano (ATmega328)" width="80" /> | `31_u1.png` |
-| 33 | `U2` | 1 | Motor driver module | DRV8834 | <img src="hardware/bom/img/32_u2.jpg" alt="Motor driver module" width="80" /> | `32_u2.jpg` |
-| 34 | `U5` | 1 | Ultrasonic distance sensor | HC-SR05 | <img src="hardware/bom/img/33_u5.png" alt="Ultrasonic distance sensor" width="80" /> | `33_u5.png` |
+| 33 | `U2` | 1 | Motor driver module | DRV8833 | <img src="hardware/bom/img/32_u2.jpg" alt="Motor driver module" width="80" /> | `32_u2.jpg` |
+| 34 | `U5` | 1 | Ultrasonic distance sensor | HC-SR04 | <img src="hardware/bom/img/33_u5.png" alt="Ultrasonic distance sensor" width="80" /> | `33_u5.png` |
 | 35 | `U6` | 1 | Line tracker module (5 channels) | TRCT5000 5way module | <img src="hardware/bom/img/34_u6.jpg" alt="Line tracker module (5 channels)" width="80" /> | `34_u6.jpg` |
 | 36 | `U7` | 1 | IR receiver IC | VS1838B | <img src="hardware/bom/img/35_u7.jpg" alt="IR receiver IC" width="80" /> | `35_u7.jpg` |
 | 37 | `U8` | 1 | ESP32-CAM module with 120° camera | ESP32-CAM | <img src="hardware/bom/img/36_u8.png" alt="ESP32-CAM module with 120° camera" width="80" /> | `36_u8.png` |
@@ -72,14 +67,14 @@ when its name matches the value in the File column.
 
 | # | Designator | Qty | Description | Value / model | Image | File |
 |:--:|------------|:-----:|-------------|---------------|:-----:|------|
-| 38 | `H1,H2, H5,H6,J1,J2,J3` | 1 | 1×40 pin header, 2.54 mm pitch | ZL201-40G | <img src="hardware/bom/img/37_h1.jpg" alt="1×40 pin header, 2.54 mm pitch" width="80" /> | `37_h1.jpg` |
+| 38 | `H1,H2,H5,H6,J1,J2,J3` | 1 | 1×40 pin header, 2.54 mm pitch | ZL201-40G | <img src="hardware/bom/img/37_h1.jpg" alt="1×40 pin header, 2.54 mm pitch" width="80" /> | `37_h1.jpg` |
 | 39 | `H3,H4` | 2 | 2×1 female header, 2.54 mm, 90° | ZL263-2SG | <img src="hardware/bom/img/38_h3.jpg" alt="2×1 female header, 2.54 mm, 90°" width="80" /> | `38_h3.jpg` |
 | 40 | `XP3,XP4` | 1 | 1×40 pin header, 2.54 mm pitch, 90° | ZL211-40KG-S | <img src="hardware/bom/img/39_xp3.jpg" alt="1×40 pin header, 2.54 mm pitch, 90°" width="80" /> | `39_xp3.jpg` |
 | 41 | `KEY1,KEY2` | 2 | 6 mm tactile button, 4 pins | 1301.9301 | <img src="hardware/bom/img/40_key1.jpg" alt="6 mm tactile button, 4 pins" width="80" /> | `40_key1.jpg` |
 | 42 | `SW1` | 1 | Slider switch, 90° | SS-12D | <img src="hardware/bom/img/41_sw1.jpg" alt="Slider switch, 90°" width="80" /> | `41_sw1.jpg` |
 | 43 | `U1 holder` | 1 | 1×40 female header, 2.54 mm (for Nano) | ZL262-40SG | <img src="hardware/bom/img/42_u1-holder.png" alt="1×40 female header, 2.54 mm (for Nano)" width="80" /> | `42_u1-holder.png` |
 | 44 | `U8 holder` | 2 | 1×8 female header, 2.54 mm (for ESP32-CAM) | ZL262-8SG | <img src="hardware/bom/img/43_u8-holder.jpg" alt="1×8 female header, 2.54 mm (for ESP32-CAM)" width="80" /> | `43_u8-holder.jpg` |
-| 45 | `U6 holder` | 1 | 1×8 female header, 2.54 mm |  | <img src="hardware/bom/img/u6-holder.png" alt="1×8 female header, 2.54 mm" width="80" /> | `u6-holder.png` |
+| 45 | `U6 holder` | 1 | 1×7 female header, 2.54 mm (for line trackers) | PBS-07R | <img src="hardware/bom/img/u6-holder.jpg" alt="1×7 female header, 2.54 mm" width="80" /> | `u6-holder.jpg` |
 
 ## Mechanics & drive
 
@@ -89,6 +84,37 @@ when its name matches the value in the File column.
 | 47 | `Mount,Mount1` | 2 | N20 ABS motor mount with screw | N20 mount | <img src="hardware/bom/img/45_mount.jpg" alt="N20 ABS motor mount with screw" width="80" /> | `45_mount.jpg` |
 | 48 | `Ball wheel` | 2 | N20 mini caster / ball wheel | Ball wheel mini | <img src="hardware/bom/img/46_ball-wheel.jpg" alt="N20 mini caster / ball wheel" width="80" /> | `46_ball-wheel.jpg` |
 | 49 | `Wheel` | 2 | N20 wheel, 44 mm, 3 mm shaft | N20 44mm | <img src="hardware/bom/img/47_wheel.jpg" alt="N20 wheel, 44 mm, 3 mm shaft" width="80" /> | `47_wheel.jpg` |
+| 50 | M2 x 6mm screw | 3 | M2 screw 6mm length | M2x6mm | <img src="hardware/bom/img/m2x6-screw.jpg" alt="M2 screw 6mm length" width="80" /> | `m2x6-screw.jpg` |
+| 51 | M3 x 12mm screw | 4 | M3 screw 12mm length | M3x12mm | <img src="hardware/bom/img/m3x12-screw.jpg" alt="M3 screw 12mm length" width="80" /> | `m3x12-screw.jpg` |
+| 52 | HTP-320 | 2 | Plastic standoff 20mm M3 double-sided | HTP-320 | <img src="hardware/bom/img/standoff-m3x20.jpg" alt="Plastic standoff 20mm M3 double-sided" width="80" /> | `standoff-m3x20.jpg` |
+| 53 | HTP-305 | 2 | Plastic standoff 5mm M3 double-sided | HTP-305 | <img src="hardware/bom/img/standoff-m3x5.jpg" alt="Plastic standoff 5mm M3 double-sided" width="80" /> | `standoff-m3x5.jpg` |
+| 54 | M3 DIN 985 | 2 | M3 self-locking nut | M3 DIN985 | <img src="hardware/bom/img/m3-din985.jpg" alt="M3 self-locking nut" width="80" /> | `m3-din985.jpg` |
+| 55 | M2 DIN 985 | 3 | M2 self-locking nut | M2 DIN985 | <img src="hardware/bom/img/m2-din985.jpg" alt="M2 self-locking nut" width="80" /> | `m2-din985.jpg` |
+
+
+## Consumables
+
+Materials used during assembly; not included in the robot BOM line count above.
+
+| # | Qty | Description | Notes | Image |
+|:--:|:-----:|-------------|-------|-------|
+| 1 | 1 | Solder wire, 0.8–1.0 mm | Sn60/Pb40 (Cynel recommended); for through-hole components and headers | <img src="hardware/bom/img/solder-cynel.jpg" alt="Solder wire" width="80" /> |
+| 2 | 1 | Flux paste or rosin flux | (Optional) makes soldering easier on pads and pin headers | <img src="hardware/bom/img/flux-amtech.jpg" alt="Flux paste or rosin flux" width="80" /> |
+| 3 | 1 | Isopropyl alcohol (IPA), 99% | (Optional) flux residue cleaning after soldering | <img src="hardware/bom/img/ipa-99.jpg" alt="Isopropyl alcohol (IPA), 99%" width="80" /> |
+| 4 | 1 | Heat shrink tubing 8mm diameter **BLACK!** | for isolating IR LEDs | <img src="hardware/bom/img/hs-8mm.png" alt="Heat shrink tubing" width="80" /> |
+
+## Required tools
+
+| # | Tool | Purpose | Image |
+|:--:|------|---------|-------|
+| 1 | Soldering iron (25–60 W, temperature-controlled) | Soldering passives, semiconductors, connectors, and modules | <img src="hardware/bom/img/iron-25w.jpg" alt="Soldering iron" width="80" /> |
+| 2 | Side / flush cutters | Trimming component leads; cutting pin headers to length | <img src="hardware/bom/img/cutters.jpg" alt="Side / flush cutters" width="80" /> |
+| 3 | Multimeter | Setting DC-DC outputs to 5 V and 3.3 V; polarity and rail checks before first power-up | <img src="hardware/bom/img/multimeter.jpg" alt="Multimeter" width="80" /> |
+| 4 | Small Phillips screwdriver | M2/M3 assembly; adjusting DC-DC module trim pots | <img src="hardware/bom/img/screwdriver.jpg" alt="Small Phillips screwdriver" width="80" /> |
+| 5 | USB cable (Mini-B or Micro-B or Type-C, per Nano revision) | Uploading firmware to Arduino Nano | <img src="hardware/bom/img/usb-cable.jpg" alt="USB cable" width="80" /> |
+| 6 | PC with Arduino IDE | Programming and testing | <img src="hardware/bom/img/laptop.png" alt="PC with Arduino IDE" width="80" /> |
+
+**Optional:** helping hands / PCB holder, magnifying lamp.
 
 ---
 
@@ -96,7 +122,7 @@ when its name matches the value in the File column.
 
 | Parameter | Value |
 |-----------|-------|
-| Unique line items | 49 |
+| Unique line items | 55 |
 | Optional parts | F1 (fuse) |
 | Bluetooth | HC-02 / HC-05 / HC-06 |
 | DC-DC modules | MH-MINI-361 or HW-613 (recommended) |
