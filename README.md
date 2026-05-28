@@ -1,12 +1,17 @@
-## "БАБАЙ" (ByByte) Nano — Educational Robot Platform
-Українська: `README.uk.md`
+## **ByByte.DIY™ Nano** — Educational Robot Platform
+[![Generic badge](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/ByByte-diy/ByByteNano)
+[![License](https://img.shields.io/badge/license-CERN_OHL_S_2.0-blue)](LICENSE)
+[![Generic badge](https://img.shields.io/badge/EasyEDA-blue.svg)](https://easyeda.com/)
+[![Generic badge](https://img.shields.io/badge/Arduino-blue.svg)](https://www.arduino.cc/)
+
+Українська: [`README.uk`](README.uk.md)
 
 
 <img src="cad/img/3D_PCB_main.png" alt="ByByte Nano 3D View" width="400" height="400" />
 
-**БАБАЙ Nano** is a compact, beginner‑friendly educational robot platform from the ByByte series. It is designed for quick assembly, safe classroom use, and clear learning of robotics fundamentals: electronics, sensors, motor control, and embedded programming. Compared to the more advanced ByByte Mega, Nano focuses on simplicity and affordability while remaining extendable.
+**ByByte Nano** is a compact, beginner‑friendly educational robot platform from the ByByte series. It is designed for quick assembly, safe classroom use, and clear learning of robotics fundamentals: electronics, sensors, motor control, and embedded programming. Compared to the more advanced ByByte Mega, Nano focuses on simplicity and affordability while remaining extendable.
 
-- Related project: see the larger sibling, ByByte Mega, for a more feature‑rich variant ([ByByte Mega README](https://github.com/ByByte-diy/ByByteMega/blob/main/README.md)).
+- Related project: see the larger sibling, ByByte Mega, for a more feature‑rich variant ([ByByte Mega](https://github.com/ByByte-diy/ByByteMega/blob/main/README.md)).
 
 ### Key Features
 - Beginner‑friendly: simple assembly and clear layout
@@ -22,11 +27,11 @@
 - Connectors: clearly labeled I/O and power headers for quick prototyping
 
 View the full schematic:
-- `hardware/schematics/ByByte_main_schematic.pdf`
+- [`Schemas .pdf`](hardware/schematics/SCH_ByByte_nano.pdf)
 
 Board previews:
-- Top: `cad/img/2D_PCB_top.png`
-- Bottom: `cad/img/2D_PCB_bottom.png`
+- [`Top PCB`](cad/img/2D_PCB_top.png)
+- [`Bottom PCB`](cad/img/2D_PCB_bottom.png)
 
 ### Technical Specifications (high‑level)
 - Power: 9V battery (PP3/“Krona”)
@@ -87,6 +92,20 @@ Contributions are welcome:
 3. Optimize or enhance libraries by forking the repo and submitting a pull request
 
 ### License
-This project is released under the license specified in `LICENSE`.
+This project is released under the license specified in [`LICENSE`](LICENSE).
+
+This project is part of the ByByte.DIY™ open robotics ecosystem.
+
+### Trademark notice:
+**ByByte.DIY™** and the ByByte.DIY **logo** are trademarks of the project maintainers.
+
+
+Copyright ⓒ 2026 ByByte.DIY™ contributors
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://home.cern/wp-content/themes/cern/public/images/logo-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://home.cern/wp-content/themes/cern/public/images/logo-blue.svg">
+  <img src="https://home.cern/wp-content/themes/cern/public/images/logo-blue.svg" alt="CERN" width="40" />
+</picture>
 
 
