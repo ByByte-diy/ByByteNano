@@ -1,6 +1,6 @@
 ## **ByByte.DIY™ Nano** — Освітня робототехнічна платформа
 [![Generic badge](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/ByByte-diy/ByByteNano)
-[![License](https://img.shields.io/badge/license-CERN_OHL_S_2.0-blue)](LICENSE)
+[![License](https://img.shields.io/badge/license-CERN_OHL_S_2.0-blue)](LICENSE.md)
 [![Generic badge](https://img.shields.io/badge/EasyEDA-blue.svg)](https://easyeda.com/)
 [![Generic badge](https://img.shields.io/badge/Arduino-blue.svg)](https://www.arduino.cc/)
 
@@ -30,8 +30,8 @@ English: [`README`](README.md)
 - [`Схема .pdf`](hardware/schematics/SCH_ByByte_nano.pdf)
 
 Попередній вигляд плати:
-- [`Верх плати`](cad/img/2D_PCB_top.png)
-- [`Низ плати`](cad/img/2D_PCB_bottom.png)
+- [`Верх плати`](cad/img/2D_pcb_top.png)
+- [`Низ плати`](cad/img/2D_pcb_bottom.png)
 
 ### Технічні характеристики (загальні)
 - Живлення: батарея 9 В (PP3/«Крона»)
@@ -75,7 +75,7 @@ English: [`README`](README.md)
 
 ### Відомість елементів (BOM)
 
-Повний перелік — **49 позицій** із позиційними номерами, кількістю, номіналами та фото компонентів — у **[BOM.md](BOM.md)**.
+Повний перелік — **55 позицій** із позиційними номерами, кількістю, номіналами та фото компонентів — у **[BOM.md](BOM.md)**.
 
 Коротко: плата ByByte Nano, Arduino Nano, драйвер двигунів (DRV8834), мотори N20 з колесами та кріпленнями, модуль датчиків лінії (5 каналів), ультразвуковий датчик, Bluetooth-модуль (HC-02/HC-05/HC-06), два DC-DC buck-модулі, ESP32-CAM (опційно), а також пасивні компоненти, роз’єми та механіка.
 
@@ -92,7 +92,7 @@ English: [`README`](README.md)
 3. Оптимізуйте або розширте бібліотеки: форкніть репозиторій і надішліть pull request
 
 ### Ліцензія
-Цей проєкт поширюється за умовами, зазначеними у файлі [`LICENSE`](LICENSE).
+Цей проєкт поширюється за умовами, зазначеними у файлі [`LICENSE`](LICENSE.md).
 
 Цей проєкт є частиною відкритої робототехнічної екосистеми ByByte.DIY™.
 

@@ -1,6 +1,6 @@
 ## **ByByte.DIY™ Nano** — Educational Robot Platform
 [![Generic badge](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/ByByte-diy/ByByteNano)
-[![License](https://img.shields.io/badge/license-CERN_OHL_S_2.0-blue)](LICENSE)
+[![License](https://img.shields.io/badge/license-CERN_OHL_S_2.0-blue)](LICENSE.md)
 [![Generic badge](https://img.shields.io/badge/EasyEDA-blue.svg)](https://easyeda.com/)
 [![Generic badge](https://img.shields.io/badge/Arduino-blue.svg)](https://www.arduino.cc/)
 
@@ -27,11 +27,11 @@
 - Connectors: clearly labeled I/O and power headers for quick prototyping
 
 View the full schematic:
-- [`Schemas .pdf`](hardware/schematics/SCH_ByByte_nano.pdf)
+- [`Schematic (PDF)`](hardware/schematics/SCH_ByByte_nano.pdf)
 
 Board previews:
-- [`Top PCB`](cad/img/2D_PCB_top.png)
-- [`Bottom PCB`](cad/img/2D_PCB_bottom.png)
+- [`Top PCB`](cad/img/2D_pcb_top.png)
+- [`Bottom PCB`](cad/img/2D_pcb_bottom.png)
 
 ### Technical Specifications (high‑level)
 - Power: 9V battery (PP3/“Krona”)
@@ -75,7 +75,7 @@ Designed to help learners develop core programming and robotics skills through h
 
 ### Bill of Materials
 
-The complete parts list — **49 line items** with designators, quantities, values, and component photos — is in **[BOM.md](BOM.md)**.
+The complete parts list — **55 line items** with designators, quantities, values, and component photos — is in **[BOM.md](BOM.md)**.
 
 At a glance, the build includes the ByByte Nano PCB, Arduino Nano, motor driver (DRV8834), N20 geared motors with wheels and mounts, 5-channel line tracker, ultrasonic sensor, Bluetooth module (HC-02/HC-05/HC-06), two DC-DC buck modules, ESP32-CAM (optional), and assorted passives, connectors, and mechanical hardware.
 
@@ -92,7 +92,7 @@ Contributions are welcome:
 3. Optimize or enhance libraries by forking the repo and submitting a pull request
 
 ### License
-This project is released under the license specified in [`LICENSE`](LICENSE).
+This project is released under the license specified in [`LICENSE`](LICENSE.md).
 
 This project is part of the ByByte.DIY™ open robotics ecosystem.
 
