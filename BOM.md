@@ -12,8 +12,8 @@ Full component list for robot assembly. Tables are grouped by part type.
 |:--:|------------|:-----:|-------------|---------------|:-----:|------|
 | 1 | `BAT1` | 1 | Battery holder | BH9VPC | <img src="hardware/bom/img/01_bat1.jpg" alt="Battery holder" width="80" /> | `01_bat1.jpg` |
 | 2 | `Li-ion Battery` | 1 | 9V Li-ion rechargeable battery (PP3 / “Krona” form factor) | BAT-6F22 | <img src="hardware/bom/img/02_li-ion-battery.jpg" alt="9V Li-ion rechargeable battery" width="80" /> | `02_li-ion-battery.jpg` |
-| 3 | `C1,C4` | 2 | Electrolytic capacitor, low ESR | 470uF 16v | <img src="hardware/bom/img/03_c1.jpg" alt="Electrolytic capacitor, low ESR" width="80" /> | `03_c1.jpg` |
-| 4 | `C3,C5,C17` | 3 | Electrolytic capacitor, low ESR | 470uF 10v | <img src="hardware/bom/img/04_c3.jpg" alt="Electrolytic capacitor, low ESR" width="80" /> | `04_c3.jpg` |
+| 3 | `C1,C4,C17` | 2 | Electrolytic capacitor, low ESR | 470uF 16v | <img src="hardware/bom/img/03_c1.jpg" alt="Electrolytic capacitor, low ESR" width="80" /> | `03_c1.jpg` |
+| 4 | `C3,C5` | 3 | Electrolytic capacitor, low ESR | 470uF 6.3v | <img src="hardware/bom/img/04_c3.jpg" alt="Electrolytic capacitor, low ESR" width="80" /> | `04_c3.jpg` |
 | 5 | `D4` | 1 | Schottky diode | 1N5822 | <img src="hardware/bom/img/05_d4.jpg" alt="Schottky diode" width="80" /> | `05_d4.jpg` |
 | 6 | `F1` | 1 | Fuse (optional) | TRF250-1000 (optional) | <img src="hardware/bom/img/06_f1.jpg" alt="Fuse (optional)" width="80" /> | `06_f1.jpg` |
 | 7 | `L1,L2` | 2 | Leaded EMI ferrite bead | R6H-3.0T | <img src="hardware/bom/img/07_l1.jpg" alt="Leaded EMI ferrite bead" width="80" /> | `07_l1.jpg` |
@@ -29,7 +29,7 @@ Full component list for robot assembly. Tables are grouped by part type.
 | 12 | `C15,C16` | 2 | Ceramic capacitor | 10nF 50v | <img src="hardware/bom/img/11_c15.jpg" alt="Ceramic capacitor" width="80" /> | `11_c15.jpg` |
 | 13 | `R1,R2` | 2 | 1/8 W resistor | 1kΩ | <img src="hardware/bom/img/12_r1.jpg" alt="1/8 W resistor" width="80" /> | `12_r1.jpg` |
 | 14 | `R3,R6,R9,R10,R14` | 5 | 1/8 W resistor | 10kΩ | <img src="hardware/bom/img/13_r3.jpg" alt="1/8 W resistor" width="80" /> | `13_r3.jpg` |
-| 15 | `R4,R5` | 2 | 1/2 W resistor | 39Ω | <img src="hardware/bom/img/14_r4.jpg" alt="1/2 W resistor" width="80" /> | `14_r4.jpg` |
+| 15 | `R4,R5` | 2 | 1/4 W resistor | 39Ω | <img src="hardware/bom/img/14_r4.jpg" alt="1/2 W resistor" width="80" /> | `14_r4.jpg` |
 | 16 | `R7,R8` | 2 | 1/8 W resistor | 1.8kΩ | <img src="hardware/bom/img/15_r7.png" alt="1/8 W resistor" width="80" /> | `15_r7.png` |
 | 17 | `R11,R12` | 2 | 1/8 W resistor | 100kΩ | <img src="hardware/bom/img/16_r11.jpg" alt="1/8 W resistor" width="80" /> | `16_r11.jpg` |
 | 18 | `R13` | 1 | 1/8 W resistor | 330Ω | <img src="hardware/bom/img/17_r13.png" alt="1/8 W resistor" width="80" /> | `17_r13.png` |
@@ -72,24 +72,25 @@ Full component list for robot assembly. Tables are grouped by part type.
 | 40 | `XP3,XP4` | 1 | 1×40 pin header, 2.54 mm pitch, 90° | ZL211-40KG-S | <img src="hardware/bom/img/39_xp3.jpg" alt="1×40 pin header, 2.54 mm pitch, 90°" width="80" /> | `39_xp3.jpg` |
 | 41 | `KEY1,KEY2` | 2 | 6 mm tactile button, 4 pins | 1301.9301 | <img src="hardware/bom/img/40_key1.jpg" alt="6 mm tactile button, 4 pins" width="80" /> | `40_key1.jpg` |
 | 42 | `SW1` | 1 | Slider switch, 90° | SS-12D | <img src="hardware/bom/img/41_sw1.jpg" alt="Slider switch, 90°" width="80" /> | `41_sw1.jpg` |
-| 43 | `U1 holder` | 1 | 1×40 female header, 2.54 mm (for Nano) | ZL262-40SG | <img src="hardware/bom/img/42_u1-holder.png" alt="1×40 female header, 2.54 mm (for Nano)" width="80" /> | `42_u1-holder.png` |
+| 43 | `U1 holder` | 2 | 1×15 female header, 2.54 mm (for Nano) | PBS-15 | <img src="hardware/bom/img/42_u1-holder.png" alt="1×15 female header" width="80" /> | `42_u1-holder.png` |
 | 44 | `U8 holder` | 2 | 1×8 female header, 2.54 mm (for ESP32-CAM) | ZL262-8SG | <img src="hardware/bom/img/43_u8-holder.jpg" alt="1×8 female header, 2.54 mm (for ESP32-CAM)" width="80" /> | `43_u8-holder.jpg` |
 | 45 | `U6 holder` | 1 | 1×7 female header, 2.54 mm (for line trackers) | PBS-07R | <img src="hardware/bom/img/u6-holder.jpg" alt="1×7 female header, 2.54 mm" width="80" /> | `u6-holder.jpg` |
+| 46 | `U2 holder` | 2 | 1×6 female header, 2.54 mm | PBS-06 | <img src="hardware/bom/img/pbs-06-zl262-6sg.jpg" alt="1×6 female header, 2.54 mm" width="80" /> | `pbs-06-zl262-6sg.jpg` |
 
 ## Mechanics & drive
 
 | # | Designator | Qty | Description | Value / model | Image | File |
 |:--:|------------|:-----:|-------------|---------------|:-----:|------|
-| 46 | `M1,M2` | 2 | DC geared motor N20, 6V | N20 motor 600-1000 rpm | <img src="hardware/bom/img/44_m1.jpg" alt="DC geared motor N20, 6V" width="80" /> | `44_m1.jpg` |
-| 47 | `Mount,Mount1` | 2 | N20 ABS motor mount with screw | N20 mount | <img src="hardware/bom/img/45_mount.jpg" alt="N20 ABS motor mount with screw" width="80" /> | `45_mount.jpg` |
-| 48 | `Ball wheel` | 2 | N20 mini caster / ball wheel | Ball wheel mini | <img src="hardware/bom/img/46_ball-wheel.jpg" alt="N20 mini caster / ball wheel" width="80" /> | `46_ball-wheel.jpg` |
-| 49 | `Wheel` | 2 | N20 wheel, 44 mm, 3 mm shaft | N20 44mm | <img src="hardware/bom/img/47_wheel.jpg" alt="N20 wheel, 44 mm, 3 mm shaft" width="80" /> | `47_wheel.jpg` |
-| 50 | M2 x 6mm screw | 3 | M2 screw 6mm length | M2x6mm | <img src="hardware/bom/img/m2x6-screw.jpg" alt="M2 screw 6mm length" width="80" /> | `m2x6-screw.jpg` |
-| 51 | M3 x 12mm screw | 4 | M3 screw 12mm length | M3x12mm | <img src="hardware/bom/img/m3x12-screw.jpg" alt="M3 screw 12mm length" width="80" /> | `m3x12-screw.jpg` |
-| 52 | HTP-320 | 2 | Plastic standoff 20mm M3 double-sided | HTP-320 | <img src="hardware/bom/img/standoff-m3x20.jpg" alt="Plastic standoff 20mm M3 double-sided" width="80" /> | `standoff-m3x20.jpg` |
-| 53 | HTP-305 | 2 | Plastic standoff 5mm M3 double-sided | HTP-305 | <img src="hardware/bom/img/standoff-m3x5.jpg" alt="Plastic standoff 5mm M3 double-sided" width="80" /> | `standoff-m3x5.jpg` |
-| 54 | M3 DIN 985 | 2 | M3 self-locking nut | M3 DIN985 | <img src="hardware/bom/img/m3-din985.jpg" alt="M3 self-locking nut" width="80" /> | `m3-din985.jpg` |
-| 55 | M2 DIN 985 | 3 | M2 self-locking nut | M2 DIN985 | <img src="hardware/bom/img/m2-din985.jpg" alt="M2 self-locking nut" width="80" /> | `m2-din985.jpg` |
+| 47 | `M1,M2` | 2 | DC geared motor N20, 6V | N20 motor 500-1000 rpm | <img src="hardware/bom/img/44_m1.jpg" alt="DC geared motor N20, 6V" width="80" /> | `44_m1.jpg` |
+| 48 | `Mount,Mount1` | 2 | N20 ABS motor mount with screw | N20 mount | <img src="hardware/bom/img/45_mount.jpg" alt="N20 ABS motor mount with screw" width="80" /> | `45_mount.jpg` |
+| 49 | `Ball wheel` | 2 | N20 mini caster / ball wheel | Ball wheel mini | <img src="hardware/bom/img/46_ball-wheel.jpg" alt="N20 mini caster / ball wheel" width="80" /> | `46_ball-wheel.jpg` |
+| 50 | `Wheel` | 2 | N20 wheel, 44 mm, 3 mm shaft | N20 44mm | <img src="hardware/bom/img/47_wheel.jpg" alt="N20 wheel, 44 mm, 3 mm shaft" width="80" /> | `47_wheel.jpg` |
+| 51 | M2 x 8mm screw | 3 | M2 screw 8mm length | M2x8mm | <img src="hardware/bom/img/m2x6-screw.jpg" alt="M2 screw 8mm length" width="80" /> | `m2x6-screw.jpg` |
+| 52 | M3 x 12mm screw | 4 | M3 screw 12mm length | M3x12mm | <img src="hardware/bom/img/m3x12-screw.jpg" alt="M3 screw 12mm length" width="80" /> | `m3x12-screw.jpg` |
+| 53 | HTP-320 | 2 | Plastic standoff 20mm M3 double-sided | HTP-320 | <img src="hardware/bom/img/standoff-m3x20.jpg" alt="Plastic standoff 20mm M3 double-sided" width="80" /> | `standoff-m3x20.jpg` |
+| 54 | HTP-305 | 2 | Plastic standoff 5mm M3 double-sided | HTP-305 | <img src="hardware/bom/img/standoff-m3x5.jpg" alt="Plastic standoff 5mm M3 double-sided" width="80" /> | `standoff-m3x5.jpg` |
+| 55 | M3 DIN 985 | 2 | M3 self-locking nut | M3 DIN985 | <img src="hardware/bom/img/m3-din985.jpg" alt="M3 self-locking nut" width="80" /> | `m3-din985.jpg` |
+| 56 | M2 DIN 985 | 3 | M2 self-locking nut | M2 DIN985 | <img src="hardware/bom/img/m2-din985.jpg" alt="M2 self-locking nut" width="80" /> | `m2-din985.jpg` |
 
 
 ## Consumables
@@ -122,7 +123,7 @@ Materials used during assembly; not included in the robot BOM line count above.
 
 | Parameter | Value |
 |-----------|-------|
-| Unique line items | 55 |
+| Unique line items | 56 |
 | Optional parts | F1 (fuse) |
 | Bluetooth | HC-02 / HC-05 / HC-06 |
 | DC-DC modules | MH-MINI-361 or HW-613 (recommended) |
