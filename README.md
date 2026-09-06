@@ -7,7 +7,7 @@
 Українська: [`README.uk`](README.uk.md)
 
 
-<img src="cad/img/3D_PCB_main.png" alt="ByByte Nano 3D View" width="400" height="400" />
+<img src="cad/img/3D_PCB_main.png" alt="ByByte Nano 3D View" width="600" />
 
 **ByByte Nano** is a compact, beginner‑friendly educational robot platform from the ByByte series. It is designed for quick assembly, safe classroom use, and clear learning of robotics fundamentals: electronics, sensors, motor control, and embedded programming. Compared to the more advanced ByByte Mega, Nano focuses on simplicity and affordability while remaining extendable.
 
